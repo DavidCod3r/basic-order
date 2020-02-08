@@ -27,7 +27,7 @@ public class Order {
 	}
 	
 	public void removeItem(OrderItem item) {
-		items.add(item);
+		items.remove(item);
 	}
 	
 	public double total() {
